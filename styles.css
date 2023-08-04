@@ -1,0 +1,42 @@
+.container {
+  background-color: aquamarine;
+}
+.box {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: smallbox;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.box2 {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: smallbox;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  border: 2px solid;
+}
+.box3 {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: smallbox;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes smallbox {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 1200px;
+  }
+}
